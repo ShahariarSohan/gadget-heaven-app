@@ -1,7 +1,14 @@
 import React from "react";
+import Nav from "../components/Nav";
+import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
-  return <div>MainLayout</div>;
+  return (
+    <div>
+      <Nav></Nav>
+      <Outlet></Outlet>
+    </div>
+  );
 };
 
 export default MainLayout;
