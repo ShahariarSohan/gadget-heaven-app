@@ -1,12 +1,14 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { BsCart4 } from "react-icons/bs";
+import { FaRegHeart } from "react-icons/fa6";
+import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
   const homeLink = (
     <NavLink
       to="/"
       className={({ isActive }) =>
-        isActive ? "text-underline font-bold" : "font-bold"
+        isActive ? "underline font-bold" : "font-bold"
       }
     >
       Home
@@ -16,7 +18,7 @@ const Nav = () => {
     <NavLink
       to="/dashboard"
       className={({ isActive }) =>
-        isActive ? "text-underline font-bold" : "font-bold"
+        isActive ? "underline font-bold" : "font-bold"
       }
     >
       Dashboard
@@ -26,7 +28,7 @@ const Nav = () => {
     <NavLink
       to="/statistics"
       className={({ isActive }) =>
-        isActive ? "text-underline font-bold" : "font-bold"
+        isActive ? "underline font-bold" : "font-bold"
       }
     >
       Statistics
@@ -73,8 +75,18 @@ const Nav = () => {
           {statsLink}
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end gap-3">
+        <div className="w-10 h-10 rounded-full shadow-lg flex justify-center items-center">
+          <Link>
+            <BsCart4 />
+          </Link>
+        </div>
+
+        <div className="w-10 h-10 rounded-full shadow-lg flex justify-center items-center">
+          <Link>
+            <FaRegHeart />
+          </Link>
+        </div>
       </div>
     </div>
   );
