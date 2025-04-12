@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div>
-      <div className="container mx-auto">
+      <div>
         <div className="hero bg-[#9538E2] min-h-screen text-white lg:rounded-xl">
           <div className="hero-content text-center">
             <div className="space-y-10">
