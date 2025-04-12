@@ -1,0 +1,194 @@
+{
+  "laptops": [
+    {
+      "product_id": "L001",
+      "product_title": "MacBook Pro 16-inch (M3 Pro)",
+      "product_image": "https://i.ibb.co.com/HTKW1nTf/G03-200x200-9.jpg",
+      "category": "Premium Laptop",
+      "price": 2499.99,
+      "description": "Professional laptop with M3 Pro chip, Liquid Retina XDR display, and up to 22-hour battery life.",
+      "specification": [
+        "16.2-inch Liquid Retina XDR display",
+        "Apple M3 Pro chip (12-core CPU, 18-core GPU)",
+        "18GB unified memory",
+        "1TB SSD storage",
+        "macOS Ventura"
+      ],
+      "availability": true,
+      "rating": 4.9,
+      "brand": "Apple",
+      "colors": ["Space Gray", "Silver"]
+    },
+    {
+      "product_id": "L002",
+      "product_title": "Dell XPS 15 (2023)",
+      "product_image": "https://i.ibb.co.com/60MJTbb2/G03-200x200-10.jpg",
+      "category": "Ultrabook",
+      "price": 1799.99,
+      "description": "Sleek Windows ultrabook with OLED display and powerful Intel 13th Gen processors.",
+      "specification": [
+        "15.6-inch 3.5K OLED touch display",
+        "Intel Core i7-13700H",
+        "16GB DDR5 RAM",
+        "512GB NVMe SSD",
+        "Windows 11 Pro"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Dell",
+      "colors": ["Platinum Silver", "Frost White"]
+    },
+    {
+      "product_id": "L003",
+      "product_title": "HP Spectre x360 14",
+      "product_image": "https://i.ibb.co.com/7dfRNYZS/G03-200x200-11.jpg",
+      "category": "2-in-1 Laptop",
+      "price": 1499.99,
+      "description": "Premium convertible laptop with 360-degree hinge and stunning 3:2 aspect ratio display.",
+      "specification": [
+        "14-inch 3K2K OLED touchscreen",
+        "Intel Core i7-1360P",
+        "16GB LPDDR5 RAM",
+        "1TB PCIe NVMe SSD",
+        "Windows 11 Home"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "HP",
+      "colors": ["Nightfall Black", "Nocturne Blue"]
+    },
+    {
+      "product_id": "L004",
+      "product_title": "Lenovo ThinkPad X1 Carbon Gen 11",
+      "product_image": "https://i.ibb.co.com/201YPD68/G03-200x200-12.jpg",
+      "category": "Business Laptop",
+      "price": 1699.99,
+      "description": "Legendary business laptop with military-grade durability and best-in-class keyboard.",
+      "specification": [
+        "14-inch WUXGA IPS anti-glare",
+        "Intel Core i7-1365U vPro",
+        "16GB LPDDR5 RAM",
+        "512GB SSD",
+        "Windows 11 Pro"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Lenovo",
+      "colors": ["Black"]
+    },
+    {
+      "product_id": "L005",
+      "product_title": "ASUS ROG Zephyrus G14",
+      "product_image": "https://i.ibb.co.com/JjLv9PY3/G03-200x200-13.jpg",
+      "category": "Gaming Laptop",
+      "price": 1599.99,
+      "description": "Compact gaming powerhouse with AMD Ryzen 9 and RTX 4060 in a 14-inch form factor.",
+      "specification": [
+        "14-inch QHD 165Hz display",
+        "AMD Ryzen 9 7940HS",
+        "16GB DDR5 RAM",
+        "1TB PCIe SSD",
+        "NVIDIA RTX 4060"
+      ],
+      "availability": false,
+      "rating": 4.7,
+      "brand": "ASUS",
+      "colors": ["Moonlight White", "Eclipse Gray"]
+    },
+    {
+      "product_id": "L006",
+      "product_title": "Microsoft Surface Laptop 5",
+      "product_image": "https://i.ibb.co.com/HpVTK8nv/G03-200x200-14.jpg",
+      "category": "Ultrabook",
+      "price": 1299.99,
+      "description": "Sleek Microsoft laptop with PixelSense touchscreen and optimized for Windows 11.",
+      "specification": [
+        "13.5-inch PixelSense touchscreen",
+        "Intel Core i7-1255U",
+        "8GB LPDDR5 RAM",
+        "512GB SSD",
+        "Windows 11 Home"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "Microsoft",
+      "colors": ["Platinum", "Sage", "Black"]
+    },
+    {
+      "product_id": "L007",
+      "product_title": "Acer Swift 3",
+      "product_image": "https://i.ibb.co.com/tphvVzVN/G03-200x200-15.jpg",
+      "category": "Budget Laptop",
+      "price": 699.99,
+      "description": "Affordable ultrabook with AMD Ryzen 7 and all-day battery life.",
+      "specification": [
+        "14-inch FHD IPS display",
+        "AMD Ryzen 7 7730U",
+        "8GB LPDDR4 RAM",
+        "512GB NVMe SSD",
+        "Windows 11 Home"
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "brand": "Acer",
+      "colors": ["Silver", "Blue"]
+    },
+    {
+      "product_id": "L008",
+      "product_title": "Razer Blade 15",
+      "product_image": "https://i.ibb.co.com/Gf2hgb6M/G11-200x200.jpg",
+      "category": "Gaming Laptop",
+      "price": 2499.99,
+      "description": "Premium gaming laptop with CNC aluminum chassis and high-refresh display.",
+      "specification": [
+        "15.6-inch QHD 240Hz",
+        "Intel Core i9-13900H",
+        "32GB DDR5 RAM",
+        "1TB SSD",
+        "NVIDIA RTX 4070"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Razer",
+      "colors": ["Black"]
+    },
+    {
+      "product_id": "L009",
+      "product_title": "LG Gram 17",
+      "product_image": "https://i.ibb.co.com/ns0H7Gb3/G03-200x200-16.jpg",
+      "category": "Ultrabook",
+      "price": 1699.99,
+      "description": "Incredibly light 17-inch laptop with military-grade durability and long battery life.",
+      "specification": [
+        "17-inch WQXGA IPS",
+        "Intel Core i7-1360P",
+        "16GB LPDDR5 RAM",
+        "1TB NVMe SSD",
+        "Windows 11 Home"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "LG",
+      "colors": ["Dark Silver", "White"]
+    },
+    {
+      "product_id": "L010",
+      "product_title": "MSI Creator Z16",
+      "product_image": "https://i.ibb.co.com/gM73w7wh/G03-200x200-17.jpg",
+      "category": "Creator Laptop",
+      "price": 2199.99,
+      "description": "Professional creator laptop with color-accurate display and powerful graphics.",
+      "specification": [
+        "16-inch QHD+ 120Hz",
+        "Intel Core i9-13900H",
+        "32GB DDR5 RAM",
+        "2TB NVMe SSD",
+        "NVIDIA RTX 4070"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "MSI",
+      "colors": ["Lunar Gray"]
+    }
+  ]
+}

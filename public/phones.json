@@ -1,0 +1,194 @@
+{
+  "phones": [
+    {
+      "product_id": "P001",
+      "product_title": "iPhone 15 Pro",
+      "product_image": "https://i.ibb.co.com/Jj5zHy7x/G03-200x200-18.jpg",
+      "category": "Smartphone",
+      "price": 999.99,
+      "description": "The latest iPhone with A17 Pro chip, titanium design, and advanced camera system.",
+      "specification": [
+        "6.1-inch Super Retina XDR display",
+        "A17 Pro chip",
+        "48MP Main camera",
+        "iOS 17",
+        "128GB storage"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Apple",
+      "colors": ["Black", "White", "Gold"]
+    },
+    {
+      "product_id": "P002",
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://i.ibb.co.com/1YJM2Ykv/G03-200x200-19.jpg",
+      "category": "Smartphone",
+      "price": 1199.99,
+      "description": "Premium Android phone with S Pen support and 200MP camera.",
+      "specification": [
+        "6.8-inch Dynamic AMOLED 2X",
+        "Snapdragon 8 Gen 2",
+        "200MP main camera",
+        "5000mAh battery",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Samsung",
+      "colors": ["Phantom Black", "Green", "Lavender"]
+    },
+    {
+      "product_id": "P003",
+      "product_title": "Google Pixel 8 Pro",
+      "product_image": "https://i.ibb.co.com/F40QJG02/G03-200x200-20.jpg",
+      "category": "Smartphone",
+      "price": 899.99,
+      "description": "Google's flagship with Tensor G3 chip and best-in-class camera software.",
+      "specification": [
+        "6.7-inch LTPO OLED",
+        "Google Tensor G3",
+        "50MP main camera",
+        "Android 14",
+        "128GB storage"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "Google",
+      "colors": ["Obsidian", "Porcelain", "Bay"]
+    },
+    {
+      "product_id": "P004",
+      "product_title": "OnePlus 11 5G",
+      "product_image": "https://i.ibb.co.com/B2WWPQB1/G03-200x200-21.jpg",
+      "category": "Smartphone",
+      "price": 699.99,
+      "description": "Flagship killer with Hasselblad camera and Snapdragon 8 Gen 2.",
+      "specification": [
+        "6.7-inch Fluid AMOLED",
+        "Snapdragon 8 Gen 2",
+        "50MP main camera",
+        "OxygenOS 13",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "OnePlus",
+      "colors": ["Titan Black", "Green"]
+    },
+    {
+      "product_id": "P005",
+      "product_title": "Xiaomi 13 Pro",
+      "product_image": "https://i.ibb.co.com/sdSWDfzk/G03-200x200-22.jpg",
+      "category": "Smartphone",
+      "price": 799.99,
+      "description": "High-performance phone with Leica camera system.",
+      "specification": [
+        "6.73-inch AMOLED",
+        "Snapdragon 8 Gen 2",
+        "50.3MP main camera",
+        "MIUI 14",
+        "256GB storage"
+      ],
+      "availability": false,
+      "rating": 4.4,
+      "brand": "Xiaomi",
+      "colors": ["Ceramic Black", "Ceramic White"]
+    },
+    {
+      "product_id": "P006",
+      "product_title": "Motorola Edge 40 Pro",
+      "product_image": "https://i.ibb.co.com/BKw3NY4k/G03-200x200-23.jpg",
+      "category": "Smartphone",
+      "price": 599.99,
+      "description": "Affordable flagship with 165Hz display and Snapdragon 8 Gen 2.",
+      "specification": [
+        "6.67-inch pOLED",
+        "Snapdragon 8 Gen 2",
+        "50MP main camera",
+        "Android 13",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "brand": "Motorola",
+      "colors": ["Black", "Blue"]
+    },
+    {
+      "product_id": "P007",
+      "product_title": "Nothing Phone (2)",
+      "product_image": "https://i.ibb.co.com/k6SVTq3Z/G03-200x200-25.jpg",
+      "category": "Smartphone",
+      "price": 599.99,
+      "description": "Unique design with Glyph Interface and transparent back.",
+      "specification": [
+        "6.7-inch LTPO OLED",
+        "Snapdragon 8+ Gen 1",
+        "50MP dual camera",
+        "Nothing OS 2.0",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.2,
+      "brand": "Nothing",
+      "colors": ["White", "Black"]
+    },
+    {
+      "product_id": "P008",
+      "product_title": "ASUS ROG Phone 7",
+      "product_image": "https://i.ibb.co.com/TM0309FS/G03-200x200-26.jpg",
+      "category": "Gaming Phone",
+      "price": 999.99,
+      "description": "Ultimate gaming phone with 165Hz display and AirTrigger controls.",
+      "specification": [
+        "6.78-inch AMOLED",
+        "Snapdragon 8 Gen 2",
+        "50MP main camera",
+        "6000mAh battery",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "ASUS",
+      "colors": ["Phantom Black", "Storm White"]
+    },
+    {
+      "product_id": "P009",
+      "product_title": "Sony Xperia 1 V",
+      "product_image": "https://i.ibb.co.com/PsphNfXR/G03-200x200-27.jpg",
+      "category": "Smartphone",
+      "price": 1299.99,
+      "description": "Cinematic 4K display with professional-grade camera features.",
+      "specification": [
+        "6.5-inch 4K OLED",
+        "Snapdragon 8 Gen 2",
+        "48MP main camera",
+        "Android 13",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "brand": "Sony",
+      "colors": ["Black", "Khaki Green"]
+    },
+    {
+      "product_id": "P010",
+      "product_title": "Redmi Note 12 Pro+",
+      "product_image": "https://i.ibb.co.com/JR4df4ZF/G03-200x200-28.jpg",
+      "category": "Budget Phone",
+      "price": 299.99,
+      "description": "Value champion with 200MP camera and 120Hz AMOLED display.",
+      "specification": [
+        "6.67-inch AMOLED",
+        "Dimensity 1080",
+        "200MP main camera",
+        "MIUI 14",
+        "128GB storage"
+      ],
+      "availability": true,
+      "rating": 4.1,
+      "brand": "Xiaomi",
+      "colors": ["Onyx Gray", "Glacier Blue", "Polar White"]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "accessories": [
+    {
+      "product_id": "ACC001",
+      "product_title": "Apple AirPods Pro (2nd Generation)",
+      "product_image": "https://i.ibb.co.com/6RBG1YDd/G03-200x200.jpg",
+      "category": "Wireless Earbuds",
+      "price": 249.0,
+      "description": "Premium noise-cancelling wireless earbuds with Adaptive Audio and USB-C charging.",
+      "specification": [
+        "Active Noise Cancellation",
+        "Adaptive Transparency mode",
+        "Custom-fit silicone tips (3 sizes)",
+        "Up to 6 hours listening time",
+        "MagSafe charging case",
+        "IP54 sweat/water resistant"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Apple",
+      "colors": ["White"],
+      "compatibility": "iPhone, Android, iPad, Mac"
+    },
+    {
+      "product_id": "ACC002",
+      "product_title": "Anker 737 Power Bank (PowerCore 24K)",
+      "product_image": "https://i.ibb.co.com/zWQ5Hk8X/G03-200x200-1.jpg",
+      "category": "Portable Charger",
+      "price": 149.99,
+      "description": "High-capacity 24000mAh power bank with 140W USB-C charging for laptops.",
+      "specification": [
+        "24000mAh capacity",
+        "140W max output (USB-C)",
+        "Charges MacBook Pro 160-56% in 30min",
+        "Digital power display",
+        "3 ports (2×USB-C, 1×USB-A)",
+        "Includes 100W USB-C cable"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Anker",
+      "colors": ["Black"],
+      "warranty": "18 months"
+    },
+    {
+      "product_id": "ACC003",
+      "product_title": "Logitech MX Keys Mini",
+      "product_image": "https://i.ibb.co.com/Df1QXt22/G03-200x200-2.jpg",
+      "category": "Wireless Keyboard",
+      "price": 99.99,
+      "description": "Compact wireless keyboard with smart backlighting and multi-device pairing.",
+      "specification": [
+        "Compact tenkeyless design",
+        "Backlit keys with smart illumination",
+        "USB-C rechargeable (10-day battery)",
+        "Multi-device Bluetooth pairing (3 devices)",
+        "Compatible with Windows/macOS/iOS/Android",
+        "Quiet tactile typing"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "Logitech",
+      "colors": ["Graphite", "Pale Gray", "Rose"],
+      "compatibility": "Multi-OS"
+    },
+    {
+      "product_id": "ACC004",
+      "product_title": "Samsung T7 Shield 2TB Portable SSD",
+      "product_image": "https://i.ibb.co.com/4ggpmNyv/G03-200x200-3.jpg",
+      "category": "External Storage",
+      "price": 159.99,
+      "description": "Rugged portable SSD with IP65 rating and 1050MB/s transfer speeds.",
+      "specification": [
+        "2TB capacity (also available in 1TB/4TB)",
+        "USB 3.2 Gen2 (10Gbps)",
+        "IP65 water/dust resistant",
+        "3m drop protection",
+        "Includes USB-C to C and USB-C to A cables",
+        "Password protection option"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Samsung",
+      "colors": ["Black", "Beige", "Blue"],
+      "warranty": "3 years"
+    },
+    {
+      "product_id": "ACC005",
+      "product_title": "Belkin BoostCharge Pro 3-in-1 Wireless Charger",
+      "product_image": "https://i.ibb.co.com/5fRzQKR/G03-200x200-4.jpg",
+      "category": "Wireless Charger",
+      "price": 149.95,
+      "description": "Premium MagSafe-compatible charger for iPhone, Apple Watch and AirPods.",
+      "specification": [
+        "15W MagSafe charging for iPhone",
+        "Fast charging for Apple Watch Series 7+",
+        "Qi charging for AirPods/other devices",
+        "Includes 30W power adapter",
+        "Non-slip silicone surface",
+        "Foldable Apple Watch charger"
+      ],
+      "availability": false,
+      "rating": 4.5,
+      "brand": "Belkin",
+      "colors": ["White"],
+      "compatibility": "Apple devices"
+    },
+    {
+      "product_id": "ACC006",
+      "product_title": "Razer BlackShark V2 Pro Wireless Gaming Headset",
+      "product_image": "https://i.ibb.co.com/TqMnYGqG/G03-200x200-5.jpg",
+      "category": "Gaming Headset",
+      "price": 179.99,
+      "description": "Esports-grade wireless headset with THX Spatial Audio and 50mm drivers.",
+      "specification": [
+        "2.4GHz wireless (70-hour battery)",
+        "THX Spatial Audio",
+        "50mm Triforce Titanium drivers",
+        "HyperClear Supercardioid mic",
+        "Memory foam ear cushions",
+        "Compatible with PC/PS5/PS4/Switch"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Razer",
+      "colors": ["Black"],
+      "warranty": "2 years"
+    },
+    {
+      "product_id": "ACC007",
+      "product_title": "UGREEN 6-in-1 USB C Hub with 4K HDMI",
+      "product_image": "https://i.ibb.co.com/SD6myK9h/G06-200x200.jpg",
+      "category": "Docking Station",
+      "price": 39.99,
+      "description": "Compact USB-C hub that adds ports to laptops with 100W PD charging.",
+      "specification": [
+        "4K@30Hz HDMI port",
+        "100W Power Delivery (USB-C)",
+        "USB 3.0 ports (2×Type-A, 1×Type-C)",
+        "SD/TF card readers",
+        "Aluminum unibody design",
+        "Supports MacBook/Windows/Chromebook"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "brand": "UGREEN",
+      "colors": ["Space Gray"],
+      "compatibility": "USB-C devices"
+    },
+    {
+      "product_id": "ACC008",
+      "product_title": "ESR HaloLock Magnetic Wireless Car Charger",
+      "product_image": "https://i.ibb.co.com/twT9rbPj/G03-200x200-6.jpg",
+      "category": "Car Accessory",
+      "price": 35.99,
+      "description": "15W MagSafe-compatible car mount with strong magnets and auto-clamping.",
+      "specification": [
+        "15W fast wireless charging",
+        "Military-grade magnets",
+        "Auto-clamping arms",
+        "360° adjustable viewing angle",
+        "Vent/dashboard mounting options",
+        "Compatible with MagSafe iPhones"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "ESR",
+      "colors": ["Black", "White"],
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "ACC009",
+      "product_title": "HyperX Pulsefire Haste Wireless Gaming Mouse",
+      "product_image": "https://i.ibb.co.com/j9MM2h4j/G03-200x200-7.jpg",
+      "category": "Gaming Mouse",
+      "price": 79.99,
+      "description": "Ultra-lightweight wireless gaming mouse with 100-hour battery life.",
+      "specification": [
+        "59g ultra-lightweight design",
+        "2.4GHz wireless (100-hour battery)",
+        "TTC Golden micro switches",
+        "26K DPI PixArt sensor",
+        "100% PTFE skates",
+        "Compatible with PC/PS5"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "HyperX",
+      "colors": ["Black", "White"],
+      "warranty": "2 years"
+    },
+    {
+      "product_id": "ACC010",
+      "product_title": "Nintendo Switch Pro Controller",
+      "product_image": "https://i.ibb.co.com/NnY5CqQp/G03-200x200-8.jpg",
+      "category": "Gaming Controller",
+      "price": 69.99,
+      "description": "Official premium controller for Nintendo Switch with HD rumble and motion controls.",
+      "specification": [
+        "40-hour battery life",
+        "Motion controls",
+        "HD rumble",
+        "NFC for Amiibo",
+        "USB-C charging",
+        "Includes charging cable"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Nintendo",
+      "colors": ["Black", "Special Editions"],
+      "compatibility": "Nintendo Switch"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "smartwatches": [
+    {
+      "product_id": "SW001",
+      "product_title": "Apple Watch Series 9",
+      "product_image": "https://i.ibb.co.com/WW5MYGhd/G03-200x200-29.jpg",
+      "category": "Smartwatch",
+      "price": 399.99,
+      "description": "The latest Apple Watch with S9 chip, brighter display, and advanced health features.",
+      "specification": [
+        "45mm or 41mm case sizes",
+        "Retina LTPO OLED display",
+        "S9 SiP dual-core processor",
+        "Blood oxygen sensor",
+        "ECG app",
+        "Water resistant 50m"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Apple",
+      "colors": ["Midnight", "Starlight", "Product Red"],
+      "compatibility": "iPhone"
+    },
+    {
+      "product_id": "SW002",
+      "product_title": "Samsung Galaxy Watch 6 Classic",
+      "product_image": "https://i.ibb.co.com/4w6S4NS7/G03-200x200-30.jpg",
+      "category": "Smartwatch",
+      "price": 369.99,
+      "description": "Premium Android smartwatch with rotating bezel and Wear OS powered by Samsung.",
+      "specification": [
+        "47mm or 43mm case sizes",
+        "Super AMOLED display",
+        "Exynos W930 processor",
+        "BioActive sensor (HR, ECG, BIA)",
+        "5ATM + IP68 water resistance",
+        "40-hour battery life"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Samsung",
+      "colors": ["Black", "Silver"],
+      "compatibility": "Android"
+    },
+    {
+      "product_id": "SW003",
+      "product_title": "Garmin Venu 3",
+      "product_image": "https://i.ibb.co.com/NgmqXShm/G03-200x200-31.jpg",
+      "category": "Fitness Smartwatch",
+      "price": 449.99,
+      "description": "Advanced health and fitness tracking with AMOLED display and 14-day battery life.",
+      "specification": [
+        "45mm or 41mm case sizes",
+        "AMOLED touchscreen",
+        "GPS/GLONASS/Galileo",
+        "Advanced sleep coaching",
+        "NFC for Garmin Pay",
+        "Water resistant 5ATM"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "Garmin",
+      "colors": ["Slate", "Whitestone"],
+      "compatibility": "Android & iOS"
+    },
+    {
+      "product_id": "SW004",
+      "product_title": "Fitbit Sense 2",
+      "product_image": "https://i.ibb.co.com/YzsKZcT/G03-200x200-32.jpg",
+      "category": "Health Smartwatch",
+      "price": 299.95,
+      "description": "Advanced health monitoring with stress management tools and 6+ day battery.",
+      "specification": [
+        "40.5mm case size",
+        "AMOLED display",
+        "EDA sensor for stress",
+        "Skin temperature sensor",
+        "Built-in GPS",
+        "Water resistant 50m"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "brand": "Fitbit",
+      "colors": ["Graphite", "Platinum"],
+      "compatibility": "Android & iOS"
+    },
+    {
+      "product_id": "SW005",
+      "product_title": "Amazfit GTR 4",
+      "product_image": "https://i.ibb.co.com/tpWdDvYj/G03-200x200-33.jpg",
+      "category": "Budget Smartwatch",
+      "price": 199.99,
+      "description": "Premium design with 14-day battery life and 150+ sports modes at affordable price.",
+      "specification": [
+        "46mm round case",
+        "1.43\" AMOLED display",
+        "BioTracker 4.0 PPG sensor",
+        "Dual-band GPS",
+        "5ATM water resistance",
+        "Bluetooth calls"
+      ],
+      "availability": false,
+      "rating": 4.3,
+      "brand": "Amazfit",
+      "colors": ["Infinite Black", "Brown Leather"],
+      "compatibility": "Android & iOS"
+    },
+    {
+      "product_id": "SW006",
+      "product_title": "Fossil Gen 6 Wellness Edition",
+      "product_image": "https://i.ibb.co.com/4Z7yTysG/G03-200x200-34.jpg",
+      "category": "Fashion Smartwatch",
+      "price": 299.0,
+      "description": "Stylish Wear OS smartwatch with enhanced wellness features and fast charging.",
+      "specification": [
+        "44mm case size",
+        "AMOLED display",
+        "Snapdragon Wear 4100+",
+        "SpO2 monitoring",
+        "30+ workout modes",
+        "24-hour battery + fast charge"
+      ],
+      "availability": true,
+      "rating": 4.2,
+      "brand": "Fossil",
+      "colors": ["Black", "Smoke"],
+      "compatibility": "Android & iOS"
+    },
+    {
+      "product_id": "SW007",
+      "product_title": "Huawei Watch GT 4",
+      "product_image": "https://i.ibb.co.com/VcYkSWXF/G07-200x200.jpg",
+      "category": "Hybrid Smartwatch",
+      "price": 249.99,
+      "description": "Elegant design with 2-week battery life and TruSeen 5.5+ heart rate monitoring.",
+      "specification": [
+        "46mm or 41mm sizes",
+        "AMOLED display",
+        "TruSeen 5.5+ PPG sensor",
+        "100+ workout modes",
+        "Bluetooth calling",
+        "5ATM water resistance"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "Huawei",
+      "colors": ["Black", "Silver", "Gold"],
+      "compatibility": "Android & iOS"
+    },
+    {
+      "product_id": "SW008",
+      "product_title": "Garmin Forerunner 265",
+      "product_image": "https://i.ibb.co.com/ZpsRZWLC/H03-200x200.jpg",
+      "category": "Running Smartwatch",
+      "price": 449.99,
+      "description": "Runner's smartwatch with AMOLED display and advanced training metrics.",
+      "specification": [
+        "46mm case size",
+        "AMOLED touchscreen",
+        "Multi-band GNSS",
+        "HRV status tracking",
+        "Morning Report feature",
+        "Up to 15-day battery"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Garmin",
+      "colors": ["Whitestone", "Black"],
+      "compatibility": "Android & iOS"
+    },
+    {
+      "product_id": "SW009",
+      "product_title": "TicWatch Pro 5",
+      "product_image": "https://i.ibb.co.com/pBFqXbwg/G03-200x200-36.jpg",
+      "category": "Wear OS Smartwatch",
+      "price": 349.99,
+      "description": "Dual-layer display smartwatch with Snapdragon W5+ and 80-hour battery mode.",
+      "specification": [
+        "47mm case size",
+        "Dual-layer AMOLED + FSTN",
+        "Snapdragon W5+ Gen 1",
+        "Rotating crown + 2 buttons",
+        "100+ sports modes",
+        "5ATM water resistance"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "brand": "Mobvoi",
+      "colors": ["Black", "Gray"],
+      "compatibility": "Android"
+    },
+    {
+      "product_id": "SW010",
+      "product_title": "Withings ScanWatch Horizon",
+      "product_image": "https://i.ibb.co.com/SX3zTtZS/G03-200x200-35.jpg",
+      "category": "Hybrid Smartwatch",
+      "price": 499.95,
+      "description": "Luxury hybrid smartwatch with medical-grade ECG and 30-day battery life.",
+      "specification": [
+        "42mm stainless steel case",
+        "Analog hands + small OLED",
+        "ECG + PPG sensors",
+        "FDA-cleared AFib detection",
+        "100m water resistance",
+        "Swim tracking"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "Withings",
+      "colors": ["Black", "Blue", "Green"],
+      "compatibility": "Android & iOS"
+    }
+  ]
+}
