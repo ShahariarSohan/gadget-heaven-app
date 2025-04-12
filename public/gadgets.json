@@ -1,0 +1,805 @@
+{
+  "gadgets": [
+    {
+      "product_id": "ACC001",
+      "product_title": "Apple AirPods Pro (2nd Generation)",
+      "product_image": "https://i.ibb.co.com/6RBG1YDd/G03-200x200.jpg",
+      "category": "Wireless Earbuds",
+      "price": 249.0,
+      "description": "Premium noise-cancelling wireless earbuds with Adaptive Audio and USB-C charging.",
+      "specification": [
+        "Active Noise Cancellation",
+        "Adaptive Transparency mode",
+        "Custom-fit silicone tips (3 sizes)",
+        "Up to 6 hours listening time",
+        "MagSafe charging case",
+        "IP54 sweat/water resistant"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Apple",
+      "colors": ["White"],
+      "compatibility": "iPhone, Android, iPad, Mac"
+    },
+    {
+      "product_id": "ACC002",
+      "product_title": "Anker 737 Power Bank (PowerCore 24K)",
+      "product_image": "https://i.ibb.co.com/zWQ5Hk8X/G03-200x200-1.jpg",
+      "category": "Portable Charger",
+      "price": 149.99,
+      "description": "High-capacity 24000mAh power bank with 140W USB-C charging for laptops.",
+      "specification": [
+        "24000mAh capacity",
+        "140W max output (USB-C)",
+        "Charges MacBook Pro 160-56% in 30min",
+        "Digital power display",
+        "3 ports (2×USB-C, 1×USB-A)",
+        "Includes 100W USB-C cable"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Anker",
+      "colors": ["Black"],
+      "warranty": "18 months"
+    },
+    {
+      "product_id": "ACC003",
+      "product_title": "Logitech MX Keys Mini",
+      "product_image": "https://i.ibb.co.com/Df1QXt22/G03-200x200-2.jpg",
+      "category": "Wireless Keyboard",
+      "price": 99.99,
+      "description": "Compact wireless keyboard with smart backlighting and multi-device pairing.",
+      "specification": [
+        "Compact tenkeyless design",
+        "Backlit keys with smart illumination",
+        "USB-C rechargeable (10-day battery)",
+        "Multi-device Bluetooth pairing (3 devices)",
+        "Compatible with Windows/macOS/iOS/Android",
+        "Quiet tactile typing"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "Logitech",
+      "colors": ["Graphite", "Pale Gray", "Rose"],
+      "compatibility": "Multi-OS"
+    },
+    {
+      "product_id": "ACC004",
+      "product_title": "Samsung T7 Shield 2TB Portable SSD",
+      "product_image": "https://i.ibb.co.com/4ggpmNyv/G03-200x200-3.jpg",
+      "category": "External Storage",
+      "price": 159.99,
+      "description": "Rugged portable SSD with IP65 rating and 1050MB/s transfer speeds.",
+      "specification": [
+        "2TB capacity (also available in 1TB/4TB)",
+        "USB 3.2 Gen2 (10Gbps)",
+        "IP65 water/dust resistant",
+        "3m drop protection",
+        "Includes USB-C to C and USB-C to A cables",
+        "Password protection option"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Samsung",
+      "colors": ["Black", "Beige", "Blue"],
+      "warranty": "3 years"
+    },
+    {
+      "product_id": "ACC005",
+      "product_title": "Belkin BoostCharge Pro 3-in-1 Wireless Charger",
+      "product_image": "https://i.ibb.co.com/5fRzQKR/G03-200x200-4.jpg",
+      "category": "Wireless Charger",
+      "price": 149.95,
+      "description": "Premium MagSafe-compatible charger for iPhone, Apple Watch and AirPods.",
+      "specification": [
+        "15W MagSafe charging for iPhone",
+        "Fast charging for Apple Watch Series 7+",
+        "Qi charging for AirPods/other devices",
+        "Includes 30W power adapter",
+        "Non-slip silicone surface",
+        "Foldable Apple Watch charger"
+      ],
+      "availability": false,
+      "rating": 4.5,
+      "brand": "Belkin",
+      "colors": ["White"],
+      "compatibility": "Apple devices"
+    },
+    {
+      "product_id": "ACC006",
+      "product_title": "Razer BlackShark V2 Pro Wireless Gaming Headset",
+      "product_image": "https://i.ibb.co.com/TqMnYGqG/G03-200x200-5.jpg",
+      "category": "Gaming Headset",
+      "price": 179.99,
+      "description": "Esports-grade wireless headset with THX Spatial Audio and 50mm drivers.",
+      "specification": [
+        "2.4GHz wireless (70-hour battery)",
+        "THX Spatial Audio",
+        "50mm Triforce Titanium drivers",
+        "HyperClear Supercardioid mic",
+        "Memory foam ear cushions",
+        "Compatible with PC/PS5/PS4/Switch"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Razer",
+      "colors": ["Black"],
+      "warranty": "2 years"
+    },
+    {
+      "product_id": "ACC007",
+      "product_title": "UGREEN 6-in-1 USB C Hub with 4K HDMI",
+      "product_image": "https://i.ibb.co.com/SD6myK9h/G06-200x200.jpg",
+      "category": "Docking Station",
+      "price": 39.99,
+      "description": "Compact USB-C hub that adds ports to laptops with 100W PD charging.",
+      "specification": [
+        "4K@30Hz HDMI port",
+        "100W Power Delivery (USB-C)",
+        "USB 3.0 ports (2×Type-A, 1×Type-C)",
+        "SD/TF card readers",
+        "Aluminum unibody design",
+        "Supports MacBook/Windows/Chromebook"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "brand": "UGREEN",
+      "colors": ["Space Gray"],
+      "compatibility": "USB-C devices"
+    },
+    {
+      "product_id": "ACC008",
+      "product_title": "ESR HaloLock Magnetic Wireless Car Charger",
+      "product_image": "https://i.ibb.co.com/twT9rbPj/G03-200x200-6.jpg",
+      "category": "Car Accessory",
+      "price": 35.99,
+      "description": "15W MagSafe-compatible car mount with strong magnets and auto-clamping.",
+      "specification": [
+        "15W fast wireless charging",
+        "Military-grade magnets",
+        "Auto-clamping arms",
+        "360° adjustable viewing angle",
+        "Vent/dashboard mounting options",
+        "Compatible with MagSafe iPhones"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "ESR",
+      "colors": ["Black", "White"],
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "ACC009",
+      "product_title": "HyperX Pulsefire Haste Wireless Gaming Mouse",
+      "product_image": "https://i.ibb.co.com/j9MM2h4j/G03-200x200-7.jpg",
+      "category": "Gaming Mouse",
+      "price": 79.99,
+      "description": "Ultra-lightweight wireless gaming mouse with 100-hour battery life.",
+      "specification": [
+        "59g ultra-lightweight design",
+        "2.4GHz wireless (100-hour battery)",
+        "TTC Golden micro switches",
+        "26K DPI PixArt sensor",
+        "100% PTFE skates",
+        "Compatible with PC/PS5"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "HyperX",
+      "colors": ["Black", "White"],
+      "warranty": "2 years"
+    },
+    {
+      "product_id": "ACC010",
+      "product_title": "Nintendo Switch Pro Controller",
+      "product_image": "https://i.ibb.co.com/NnY5CqQp/G03-200x200-8.jpg",
+      "category": "Gaming Controller",
+      "price": 69.99,
+      "description": "Official premium controller for Nintendo Switch with HD rumble and motion controls.",
+      "specification": [
+        "40-hour battery life",
+        "Motion controls",
+        "HD rumble",
+        "NFC for Amiibo",
+        "USB-C charging",
+        "Includes charging cable"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Nintendo",
+      "colors": ["Black", "Special Editions"],
+      "compatibility": "Nintendo Switch"
+    },
+
+    {
+      "product_id": "L001",
+      "product_title": "MacBook Pro 16-inch (M3 Pro)",
+      "product_image": "https://i.ibb.co.com/HTKW1nTf/G03-200x200-9.jpg",
+      "category": "Premium Laptop",
+      "price": 2499.99,
+      "description": "Professional laptop with M3 Pro chip, Liquid Retina XDR display, and up to 22-hour battery life.",
+      "specification": [
+        "16.2-inch Liquid Retina XDR display",
+        "Apple M3 Pro chip (12-core CPU, 18-core GPU)",
+        "18GB unified memory",
+        "1TB SSD storage",
+        "macOS Ventura"
+      ],
+      "availability": true,
+      "rating": 4.9,
+      "brand": "Apple",
+      "colors": ["Space Gray", "Silver"]
+    },
+    {
+      "product_id": "L002",
+      "product_title": "Dell XPS 15 (2023)",
+      "product_image": "https://i.ibb.co.com/60MJTbb2/G03-200x200-10.jpg",
+      "category": "Ultrabook",
+      "price": 1799.99,
+      "description": "Sleek Windows ultrabook with OLED display and powerful Intel 13th Gen processors.",
+      "specification": [
+        "15.6-inch 3.5K OLED touch display",
+        "Intel Core i7-13700H",
+        "16GB DDR5 RAM",
+        "512GB NVMe SSD",
+        "Windows 11 Pro"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Dell",
+      "colors": ["Platinum Silver", "Frost White"]
+    },
+    {
+      "product_id": "L003",
+      "product_title": "HP Spectre x360 14",
+      "product_image": "https://i.ibb.co.com/7dfRNYZS/G03-200x200-11.jpg",
+      "category": "2-in-1 Laptop",
+      "price": 1499.99,
+      "description": "Premium convertible laptop with 360-degree hinge and stunning 3:2 aspect ratio display.",
+      "specification": [
+        "14-inch 3K2K OLED touchscreen",
+        "Intel Core i7-1360P",
+        "16GB LPDDR5 RAM",
+        "1TB PCIe NVMe SSD",
+        "Windows 11 Home"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "HP",
+      "colors": ["Nightfall Black", "Nocturne Blue"]
+    },
+    {
+      "product_id": "L004",
+      "product_title": "Lenovo ThinkPad X1 Carbon Gen 11",
+      "product_image": "https://i.ibb.co.com/201YPD68/G03-200x200-12.jpg",
+      "category": "Business Laptop",
+      "price": 1699.99,
+      "description": "Legendary business laptop with military-grade durability and best-in-class keyboard.",
+      "specification": [
+        "14-inch WUXGA IPS anti-glare",
+        "Intel Core i7-1365U vPro",
+        "16GB LPDDR5 RAM",
+        "512GB SSD",
+        "Windows 11 Pro"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Lenovo",
+      "colors": ["Black"]
+    },
+    {
+      "product_id": "L005",
+      "product_title": "ASUS ROG Zephyrus G14",
+      "product_image": "https://i.ibb.co.com/JjLv9PY3/G03-200x200-13.jpg",
+      "category": "Gaming Laptop",
+      "price": 1599.99,
+      "description": "Compact gaming powerhouse with AMD Ryzen 9 and RTX 4060 in a 14-inch form factor.",
+      "specification": [
+        "14-inch QHD 165Hz display",
+        "AMD Ryzen 9 7940HS",
+        "16GB DDR5 RAM",
+        "1TB PCIe SSD",
+        "NVIDIA RTX 4060"
+      ],
+      "availability": false,
+      "rating": 4.7,
+      "brand": "ASUS",
+      "colors": ["Moonlight White", "Eclipse Gray"]
+    },
+    {
+      "product_id": "L006",
+      "product_title": "Microsoft Surface Laptop 5",
+      "product_image": "https://i.ibb.co.com/HpVTK8nv/G03-200x200-14.jpg",
+      "category": "Ultrabook",
+      "price": 1299.99,
+      "description": "Sleek Microsoft laptop with PixelSense touchscreen and optimized for Windows 11.",
+      "specification": [
+        "13.5-inch PixelSense touchscreen",
+        "Intel Core i7-1255U",
+        "8GB LPDDR5 RAM",
+        "512GB SSD",
+        "Windows 11 Home"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "Microsoft",
+      "colors": ["Platinum", "Sage", "Black"]
+    },
+    {
+      "product_id": "L007",
+      "product_title": "Acer Swift 3",
+      "product_image": "https://i.ibb.co.com/tphvVzVN/G03-200x200-15.jpg",
+      "category": "Budget Laptop",
+      "price": 699.99,
+      "description": "Affordable ultrabook with AMD Ryzen 7 and all-day battery life.",
+      "specification": [
+        "14-inch FHD IPS display",
+        "AMD Ryzen 7 7730U",
+        "8GB LPDDR4 RAM",
+        "512GB NVMe SSD",
+        "Windows 11 Home"
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "brand": "Acer",
+      "colors": ["Silver", "Blue"]
+    },
+    {
+      "product_id": "L008",
+      "product_title": "Razer Blade 15",
+      "product_image": "https://i.ibb.co.com/Gf2hgb6M/G11-200x200.jpg",
+      "category": "Gaming Laptop",
+      "price": 2499.99,
+      "description": "Premium gaming laptop with CNC aluminum chassis and high-refresh display.",
+      "specification": [
+        "15.6-inch QHD 240Hz",
+        "Intel Core i9-13900H",
+        "32GB DDR5 RAM",
+        "1TB SSD",
+        "NVIDIA RTX 4070"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Razer",
+      "colors": ["Black"]
+    },
+    {
+      "product_id": "L009",
+      "product_title": "LG Gram 17",
+      "product_image": "https://i.ibb.co.com/ns0H7Gb3/G03-200x200-16.jpg",
+      "category": "Ultrabook",
+      "price": 1699.99,
+      "description": "Incredibly light 17-inch laptop with military-grade durability and long battery life.",
+      "specification": [
+        "17-inch WQXGA IPS",
+        "Intel Core i7-1360P",
+        "16GB LPDDR5 RAM",
+        "1TB NVMe SSD",
+        "Windows 11 Home"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "LG",
+      "colors": ["Dark Silver", "White"]
+    },
+    {
+      "product_id": "L010",
+      "product_title": "MSI Creator Z16",
+      "product_image": "https://i.ibb.co.com/gM73w7wh/G03-200x200-17.jpg",
+      "category": "Creator Laptop",
+      "price": 2199.99,
+      "description": "Professional creator laptop with color-accurate display and powerful graphics.",
+      "specification": [
+        "16-inch QHD+ 120Hz",
+        "Intel Core i9-13900H",
+        "32GB DDR5 RAM",
+        "2TB NVMe SSD",
+        "NVIDIA RTX 4070"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "MSI",
+      "colors": ["Lunar Gray"]
+    },
+    {
+      "product_id": "P001",
+      "product_title": "iPhone 15 Pro",
+      "product_image": "https://i.ibb.co.com/Jj5zHy7x/G03-200x200-18.jpg",
+      "category": "Smartphone",
+      "price": 999.99,
+      "description": "The latest iPhone with A17 Pro chip, titanium design, and advanced camera system.",
+      "specification": [
+        "6.1-inch Super Retina XDR display",
+        "A17 Pro chip",
+        "48MP Main camera",
+        "iOS 17",
+        "128GB storage"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Apple",
+      "colors": ["Black", "White", "Gold"]
+    },
+    {
+      "product_id": "P002",
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://i.ibb.co.com/1YJM2Ykv/G03-200x200-19.jpg",
+      "category": "Smartphone",
+      "price": 1199.99,
+      "description": "Premium Android phone with S Pen support and 200MP camera.",
+      "specification": [
+        "6.8-inch Dynamic AMOLED 2X",
+        "Snapdragon 8 Gen 2",
+        "200MP main camera",
+        "5000mAh battery",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Samsung",
+      "colors": ["Phantom Black", "Green", "Lavender"]
+    },
+    {
+      "product_id": "P003",
+      "product_title": "Google Pixel 8 Pro",
+      "product_image": "https://i.ibb.co.com/F40QJG02/G03-200x200-20.jpg",
+      "category": "Smartphone",
+      "price": 899.99,
+      "description": "Google's flagship with Tensor G3 chip and best-in-class camera software.",
+      "specification": [
+        "6.7-inch LTPO OLED",
+        "Google Tensor G3",
+        "50MP main camera",
+        "Android 14",
+        "128GB storage"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "Google",
+      "colors": ["Obsidian", "Porcelain", "Bay"]
+    },
+    {
+      "product_id": "P004",
+      "product_title": "OnePlus 11 5G",
+      "product_image": "https://i.ibb.co.com/B2WWPQB1/G03-200x200-21.jpg",
+      "category": "Smartphone",
+      "price": 699.99,
+      "description": "Flagship killer with Hasselblad camera and Snapdragon 8 Gen 2.",
+      "specification": [
+        "6.7-inch Fluid AMOLED",
+        "Snapdragon 8 Gen 2",
+        "50MP main camera",
+        "OxygenOS 13",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "OnePlus",
+      "colors": ["Titan Black", "Green"]
+    },
+    {
+      "product_id": "P005",
+      "product_title": "Xiaomi 13 Pro",
+      "product_image": "https://i.ibb.co.com/sdSWDfzk/G03-200x200-22.jpg",
+      "category": "Smartphone",
+      "price": 799.99,
+      "description": "High-performance phone with Leica camera system.",
+      "specification": [
+        "6.73-inch AMOLED",
+        "Snapdragon 8 Gen 2",
+        "50.3MP main camera",
+        "MIUI 14",
+        "256GB storage"
+      ],
+      "availability": false,
+      "rating": 4.4,
+      "brand": "Xiaomi",
+      "colors": ["Ceramic Black", "Ceramic White"]
+    },
+    {
+      "product_id": "P006",
+      "product_title": "Motorola Edge 40 Pro",
+      "product_image": "https://i.ibb.co.com/BKw3NY4k/G03-200x200-23.jpg",
+      "category": "Smartphone",
+      "price": 599.99,
+      "description": "Affordable flagship with 165Hz display and Snapdragon 8 Gen 2.",
+      "specification": [
+        "6.67-inch pOLED",
+        "Snapdragon 8 Gen 2",
+        "50MP main camera",
+        "Android 13",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "brand": "Motorola",
+      "colors": ["Black", "Blue"]
+    },
+    {
+      "product_id": "P007",
+      "product_title": "Nothing Phone (2)",
+      "product_image": "https://i.ibb.co.com/k6SVTq3Z/G03-200x200-25.jpg",
+      "category": "Smartphone",
+      "price": 599.99,
+      "description": "Unique design with Glyph Interface and transparent back.",
+      "specification": [
+        "6.7-inch LTPO OLED",
+        "Snapdragon 8+ Gen 1",
+        "50MP dual camera",
+        "Nothing OS 2.0",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.2,
+      "brand": "Nothing",
+      "colors": ["White", "Black"]
+    },
+    {
+      "product_id": "P008",
+      "product_title": "ASUS ROG Phone 7",
+      "product_image": "https://i.ibb.co.com/TM0309FS/G03-200x200-26.jpg",
+      "category": "Gaming Phone",
+      "price": 999.99,
+      "description": "Ultimate gaming phone with 165Hz display and AirTrigger controls.",
+      "specification": [
+        "6.78-inch AMOLED",
+        "Snapdragon 8 Gen 2",
+        "50MP main camera",
+        "6000mAh battery",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "ASUS",
+      "colors": ["Phantom Black", "Storm White"]
+    },
+    {
+      "product_id": "P009",
+      "product_title": "Sony Xperia 1 V",
+      "product_image": "https://i.ibb.co.com/PsphNfXR/G03-200x200-27.jpg",
+      "category": "Smartphone",
+      "price": 1299.99,
+      "description": "Cinematic 4K display with professional-grade camera features.",
+      "specification": [
+        "6.5-inch 4K OLED",
+        "Snapdragon 8 Gen 2",
+        "48MP main camera",
+        "Android 13",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "brand": "Sony",
+      "colors": ["Black", "Khaki Green"]
+    },
+    {
+      "product_id": "P010",
+      "product_title": "Redmi Note 12 Pro+",
+      "product_image": "https://i.ibb.co.com/JR4df4ZF/G03-200x200-28.jpg",
+      "category": "Budget Phone",
+      "price": 299.99,
+      "description": "Value champion with 200MP camera and 120Hz AMOLED display.",
+      "specification": [
+        "6.67-inch AMOLED",
+        "Dimensity 1080",
+        "200MP main camera",
+        "MIUI 14",
+        "128GB storage"
+      ],
+      "availability": true,
+      "rating": 4.1,
+      "brand": "Xiaomi",
+      "colors": ["Onyx Gray", "Glacier Blue", "Polar White"]
+    },
+    {
+      "product_id": "SW001",
+      "product_title": "Apple Watch Series 9",
+      "product_image": "https://i.ibb.co.com/WW5MYGhd/G03-200x200-29.jpg",
+      "category": "Smartwatch",
+      "price": 399.99,
+      "description": "The latest Apple Watch with S9 chip, brighter display, and advanced health features.",
+      "specification": [
+        "45mm or 41mm case sizes",
+        "Retina LTPO OLED display",
+        "S9 SiP dual-core processor",
+        "Blood oxygen sensor",
+        "ECG app",
+        "Water resistant 50m"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Apple",
+      "colors": ["Midnight", "Starlight", "Product Red"],
+      "compatibility": "iPhone"
+    },
+    {
+      "product_id": "SW002",
+      "product_title": "Samsung Galaxy Watch 6 Classic",
+      "product_image": "https://i.ibb.co.com/4w6S4NS7/G03-200x200-30.jpg",
+      "category": "Smartwatch",
+      "price": 369.99,
+      "description": "Premium Android smartwatch with rotating bezel and Wear OS powered by Samsung.",
+      "specification": [
+        "47mm or 43mm case sizes",
+        "Super AMOLED display",
+        "Exynos W930 processor",
+        "BioActive sensor (HR, ECG, BIA)",
+        "5ATM + IP68 water resistance",
+        "40-hour battery life"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Samsung",
+      "colors": ["Black", "Silver"],
+      "compatibility": "Android"
+    },
+    {
+      "product_id": "SW003",
+      "product_title": "Garmin Venu 3",
+      "product_image": "https://i.ibb.co.com/NgmqXShm/G03-200x200-31.jpg",
+      "category": "Fitness Smartwatch",
+      "price": 449.99,
+      "description": "Advanced health and fitness tracking with AMOLED display and 14-day battery life.",
+      "specification": [
+        "45mm or 41mm case sizes",
+        "AMOLED touchscreen",
+        "GPS/GLONASS/Galileo",
+        "Advanced sleep coaching",
+        "NFC for Garmin Pay",
+        "Water resistant 5ATM"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "Garmin",
+      "colors": ["Slate", "Whitestone"],
+      "compatibility": "Android & iOS"
+    },
+    {
+      "product_id": "SW004",
+      "product_title": "Fitbit Sense 2",
+      "product_image": "https://i.ibb.co.com/YzsKZcT/G03-200x200-32.jpg",
+      "category": "Health Smartwatch",
+      "price": 299.95,
+      "description": "Advanced health monitoring with stress management tools and 6+ day battery.",
+      "specification": [
+        "40.5mm case size",
+        "AMOLED display",
+        "EDA sensor for stress",
+        "Skin temperature sensor",
+        "Built-in GPS",
+        "Water resistant 50m"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "brand": "Fitbit",
+      "colors": ["Graphite", "Platinum"],
+      "compatibility": "Android & iOS"
+    },
+    {
+      "product_id": "SW005",
+      "product_title": "Amazfit GTR 4",
+      "product_image": "https://i.ibb.co.com/tpWdDvYj/G03-200x200-33.jpg",
+      "category": "Budget Smartwatch",
+      "price": 199.99,
+      "description": "Premium design with 14-day battery life and 150+ sports modes at affordable price.",
+      "specification": [
+        "46mm round case",
+        "1.43 AMOLED display",
+        "BioTracker 4.0 PPG sensor",
+        "Dual-band GPS",
+        "5ATM water resistance",
+        "Bluetooth calls"
+      ],
+      "availability": false,
+      "rating": 4.3,
+      "brand": "Amazfit",
+      "colors": ["Infinite Black", "Brown Leather"],
+      "compatibility": "Android & iOS"
+    },
+    {
+      "product_id": "SW006",
+      "product_title": "Fossil Gen 6 Wellness Edition",
+      "product_image": "https://i.ibb.co.com/4Z7yTysG/G03-200x200-34.jpg",
+      "category": "Fashion Smartwatch",
+      "price": 299.0,
+      "description": "Stylish Wear OS smartwatch with enhanced wellness features and fast charging.",
+      "specification": [
+        "44mm case size",
+        "AMOLED display",
+        "Snapdragon Wear 4100+",
+        "SpO2 monitoring",
+        "30+ workout modes",
+        "24-hour battery + fast charge"
+      ],
+      "availability": true,
+      "rating": 4.2,
+      "brand": "Fossil",
+      "colors": ["Black", "Smoke"],
+      "compatibility": "Android & iOS"
+    },
+    {
+      "product_id": "SW007",
+      "product_title": "Huawei Watch GT 4",
+      "product_image": "https://i.ibb.co.com/VcYkSWXF/G07-200x200.jpg",
+      "category": "Hybrid Smartwatch",
+      "price": 249.99,
+      "description": "Elegant design with 2-week battery life and TruSeen 5.5+ heart rate monitoring.",
+      "specification": [
+        "46mm or 41mm sizes",
+        "AMOLED display",
+        "TruSeen 5.5+ PPG sensor",
+        "100+ workout modes",
+        "Bluetooth calling",
+        "5ATM water resistance"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "Huawei",
+      "colors": ["Black", "Silver", "Gold"],
+      "compatibility": "Android & iOS"
+    },
+    {
+      "product_id": "SW008",
+      "product_title": "Garmin Forerunner 265",
+      "product_image": "https://i.ibb.co.com/ZpsRZWLC/H03-200x200.jpg",
+      "category": "Running Smartwatch",
+      "price": 449.99,
+      "description": "Runner's smartwatch with AMOLED display and advanced training metrics.",
+      "specification": [
+        "46mm case size",
+        "AMOLED touchscreen",
+        "Multi-band GNSS",
+        "HRV status tracking",
+        "Morning Report feature",
+        "Up to 15-day battery"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Garmin",
+      "colors": ["Whitestone", "Black"],
+      "compatibility": "Android & iOS"
+    },
+    {
+      "product_id": "SW009",
+      "product_title": "TicWatch Pro 5",
+      "product_image": "https://i.ibb.co.com/pBFqXbwg/G03-200x200-36.jpg",
+      "category": "Wear OS Smartwatch",
+      "price": 349.99,
+      "description": "Dual-layer display smartwatch with Snapdragon W5+ and 80-hour battery mode.",
+      "specification": [
+        "47mm case size",
+        "Dual-layer AMOLED + FSTN",
+        "Snapdragon W5+ Gen 1",
+        "Rotating crown + 2 buttons",
+        "100+ sports modes",
+        "5ATM water resistance"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "brand": "Mobvoi",
+      "colors": ["Black", "Gray"],
+      "compatibility": "Android"
+    },
+    {
+      "product_id": "SW010",
+      "product_title": "Withings ScanWatch Horizon",
+      "product_image": "https://i.ibb.co.com/SX3zTtZS/G03-200x200-35.jpg",
+      "category": "Hybrid Smartwatch",
+      "price": 499.95,
+      "description": "Luxury hybrid smartwatch with medical-grade ECG and 30-day battery life.",
+      "specification": [
+        "42mm stainless steel case",
+        "Analog hands + small OLED",
+        "ECG + PPG sensors",
+        "FDA-cleared AFib detection",
+        "100m water resistance",
+        "Swim tracking"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "Withings",
+      "colors": ["Black", "Blue", "Green"],
+      "compatibility": "Android & iOS"
+    }
+  ]
+}
