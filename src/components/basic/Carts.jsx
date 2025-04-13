@@ -1,10 +1,14 @@
-import React, { useContext } from "react";
-import { getCart } from "../../utils/LocalStorage";
+import React, { useState } from "react";
+import { deleteCart, getCart } from "../../utils/LocalStorage";
 import Cart from "../common/Cart";
 
 const Carts = () => {
-  const carts = getCart();
+  const [showCarts, setShowCarts] = useState(getCart());
 
+  const handleDeleteCart = (id) => {
+    deleteCart(id);
+    setShowCarts(getCart());
+  };
   return (
     <div className="container mx-auto p-10">
       <div className="flex flex-col md:flex-row justify-between items-center">
@@ -26,8 +30,12 @@ const Carts = () => {
         </div>
       </div>
       <div className="space-y-10">
-        {carts?.map((cart, idx) => (
-          <Cart cart={cart} key={idx}></Cart>
+        {showCarts?.map((cart, idx) => (
+          <Cart
+            cart={cart}
+            key={idx}
+            handleDeleteCart={handleDeleteCart}
+          ></Cart>
         ))}
       </div>
     </div>
