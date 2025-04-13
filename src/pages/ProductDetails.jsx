@@ -22,7 +22,7 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
-      <div className=" w-3/4 bg-slate-50   p-5 rounded-xl mx-auto -translate-y-1/4 ">
+      <div className=" w-3/4 bg-slate-50   p-5 rounded-xl mx-auto lg:-translate-y-1/4 ">
         <DetailsCard product={product} key={product.product_id}></DetailsCard>
       </div>
     </div>

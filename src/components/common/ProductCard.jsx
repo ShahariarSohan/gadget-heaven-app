@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import { ProductsContext } from "../../layouts/MainLayout";
 
 const CommonCard = ({ singleData }) => {
   const { product_id, product_image, product_title, price } = singleData;

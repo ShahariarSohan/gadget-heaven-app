@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLoaderData } from "react-router-dom";
-import CommonCard from "../common/CommonCard";
+import ProductCard from "../common/ProductCard";
 
 const AllProducts = () => {
   const [show, setShow] = useState(false);
@@ -13,18 +13,18 @@ const AllProducts = () => {
           ? data
               ?.slice(0, 40)
               .map((singleData) => (
-                <CommonCard
+                <ProductCard
                   key={singleData.product_id}
                   singleData={singleData}
-                ></CommonCard>
+                ></ProductCard>
               ))
           : data
               ?.slice(0, 12)
               .map((singleData) => (
-                <CommonCard
+                <ProductCard
                   key={singleData.product_id}
                   singleData={singleData}
-                ></CommonCard>
+                ></ProductCard>
               ))}
       </div>
       <div onClick={() => setShow(!show)}>
