@@ -15,7 +15,9 @@ const CommonCard = ({ singleData }) => {
           <p>{price} $</p>
           <div className="card-actions">
             <Link>
-              <button className="btn btn-primary text-white">Details</button>
+              <button className="btn  text-primary rounded-full bg-white border border-primary">
+                View Details
+              </button>
             </Link>
           </div>
         </div>

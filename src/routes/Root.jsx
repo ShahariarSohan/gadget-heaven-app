@@ -8,10 +8,12 @@ import Accessories from "../components/categoryComponents/Accessories";
 import Phones from "../components/categoryComponents/Phones";
 import Laptops from "../components/categoryComponents/Laptops";
 import Watches from "../components/categoryComponents/Watches";
+import Error from "../pages/Error";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",
