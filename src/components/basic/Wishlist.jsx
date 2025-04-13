@@ -12,13 +12,19 @@ const Wishlist = () => {
     <div className="container mx-auto p-10">
       <h3 className="text-xl font-bold">Wishlist</h3>
       <div className="space-y-10">
-        {showWishlists?.map((cart, idx) => (
-          <List
-            cart={cart}
-            key={idx}
-            handleDeleteWishlist={handleDeleteWishlist}
-          ></List>
-        ))}
+        {showWishlists.length === 0 ? (
+          <div className="text-center">
+            <h1 className="text-3xl font-bold">No data available</h1>
+          </div>
+        ) : (
+          showWishlists?.map((cart, idx) => (
+            <List
+              cart={cart}
+              key={idx}
+              handleDeleteWishlist={handleDeleteWishlist}
+            ></List>
+          ))
+        )}
       </div>
     </div>
   );

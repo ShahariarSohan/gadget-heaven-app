@@ -9,6 +9,14 @@ const Carts = () => {
     deleteCart(id);
     setShowCarts(getCart());
   };
+  const handleSortByPrice = () => {
+    const carts = getCart();
+    const sortByPrice = carts.sort((cart1, cart2) => cart2.price - cart1.price);
+    setShowCarts(sortByPrice);
+  };
+  const handlePurchase = () => {
+    setShowCarts(getCart());
+  };
   return (
     <div className="container mx-auto p-10">
       <div className="flex flex-col md:flex-row justify-between items-center">
@@ -16,12 +24,14 @@ const Carts = () => {
         <div className="flex flex-col md:flex-row gap-5 items-center">
           <p>Total Price :</p>
           <button
+            onClick={handleSortByPrice}
             className="btn btn-secondary hover:bg-white 
               hover:text-secondary w-32 rounded-full"
           >
             Sort by Price
           </button>
           <button
+            onClick={handlePurchase}
             className="btn btn-secondary hover:bg-white 
               hover:text-secondary w-32 rounded-full"
           >
@@ -30,13 +40,19 @@ const Carts = () => {
         </div>
       </div>
       <div className="space-y-10">
-        {showCarts?.map((cart, idx) => (
-          <Cart
-            cart={cart}
-            key={idx}
-            handleDeleteCart={handleDeleteCart}
-          ></Cart>
-        ))}
+        {showCarts.length === 0 ? (
+          <div className="text-center">
+            <h1 className="text-3xl font-bold">No data available</h1>
+          </div>
+        ) : (
+          showCarts.map((cart, idx) => (
+            <Cart
+              cart={cart}
+              key={idx}
+              handleDeleteCart={handleDeleteCart}
+            ></Cart>
+          ))
+        )}
       </div>
     </div>
   );
