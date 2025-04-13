@@ -15,7 +15,7 @@ const Dashboard = () => {
               it all!
             </p>
             <div className="flex justify-center gap-5 items-center">
-              <Link to="carts">
+              <Link to="/dashboard">
                 <button className="btn btn-secondary hover:bg-white hover:text-secondary w-32  rounded-full">
                   Cart
                 </button>
