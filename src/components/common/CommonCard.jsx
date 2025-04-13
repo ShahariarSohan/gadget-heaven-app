@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import { ProductsContext } from "../../layouts/MainLayout";
 
 const CommonCard = ({ singleData }) => {
-  const { product_image, product_title, price } = singleData;
+  const { product_id, product_image, product_title, price } = singleData;
   return (
     <div>
       <div className="card bg-base-100 h-full shadow-xl">
@@ -14,7 +15,7 @@ const CommonCard = ({ singleData }) => {
           <h2 className="card-title">{product_title}</h2>
           <p>{price} $</p>
           <div className="card-actions">
-            <Link>
+            <Link to={`/productDetails/${product_id}`}>
               <button className="btn  text-primary rounded-full bg-white border border-primary">
                 View Details
               </button>

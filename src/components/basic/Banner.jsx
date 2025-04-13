@@ -27,7 +27,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="hidden sm:block w-3/4 bg-slate-100 bg-transparent  p-5 h-96 rounded-xl mx-auto -translate-y-1/3 ">
+        <div className="hidden sm:block w-3/4 bg-slate-100   p-5 h-96 rounded-xl mx-auto -translate-y-1/3 ">
           <img src="/banner.jpg" alt="" className="w-full h-full rounded-xl" />
         </div>
       </div>

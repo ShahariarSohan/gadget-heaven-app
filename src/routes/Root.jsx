@@ -9,10 +9,12 @@ import Phones from "../components/categoryComponents/Phones";
 import Laptops from "../components/categoryComponents/Laptops";
 import Watches from "../components/categoryComponents/Watches";
 import Error from "../pages/Error";
+import ProductDetails from "../pages/ProductDetails";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    loader: () => fetch("../allProducts.json"),
     errorElement: <Error></Error>,
     children: [
       {
@@ -53,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics></Statistics>,
+      },
+      {
+        path: "/productDetails/:id",
+        element: <ProductDetails></ProductDetails>,
       },
     ],
   },
