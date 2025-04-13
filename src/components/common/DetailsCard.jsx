@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsCart4 } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa6";
 
 import { Link } from "react-router-dom";
+import { addCart, addWishlist, getWishlist } from "../../utils/LocalStorage";
+import toast from "react-hot-toast";
 const DetailsCard = ({ product }) => {
+  const [wishlists, setWishlists] = useState(getWishlist());
   const {
+    product_id,
     product_title,
     product_image,
     description,
@@ -13,7 +17,20 @@ const DetailsCard = ({ product }) => {
     rating,
     availability,
   } = product;
-
+  const handleCart = (cart) => {
+    addCart(cart);
+    toast.success("Product added to cart");
+  };
+  const handleWishlist = (wishlist) => {
+    const isExist = wishlists?.find((item) => item.product_id === product_id);
+    if (!isExist) {
+      addWishlist(wishlist);
+      setWishlists(getWishlist());
+      return toast.success("Cart added to Wishlist");
+    } else {
+      return toast.error("Cart already added to Wishlist");
+    }
+  };
   return (
     <div>
       <div>
@@ -35,14 +52,17 @@ const DetailsCard = ({ product }) => {
               ))}
             </div>
             <div className="flex items-center gap-3">
-              <div>
+              <div onClick={() => handleCart(product)}>
                 <Link>
                   <button className="btn btn-primary text-white rounded-full">
                     Add To Cart <BsCart4 className="text-xl" />
                   </button>
                 </Link>
               </div>
-              <div className="w-12 h-12 rounded-full hover:shadow-lg shadow-md flex justify-center items-center">
+              <div
+                onClick={() => handleWishlist(product)}
+                className="w-12 h-12 rounded-full hover:shadow-lg shadow-md flex justify-center items-center"
+              >
                 <Link>
                   <FaRegHeart className="text-xl" />
                 </Link>

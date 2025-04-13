@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { getCart, getWishlist } from "../utils/LocalStorage";
+import { Link, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
   return (
@@ -12,9 +14,25 @@ const Dashboard = () => {
               next level. From smart devices to the coolest accessories, we have
               it all!
             </p>
+            <div className="flex justify-center gap-5 items-center">
+              <Link to="carts">
+                <button className="btn btn-secondary hover:bg-white hover:text-secondary w-32  rounded-full">
+                  Cart
+                </button>
+              </Link>
+              <Link to="wishlist">
+                <button
+                  className="btn btn-secondary hover:bg-white 
+              hover:text-secondary w-32 rounded-full"
+                >
+                  Wishlist
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
+      <Outlet></Outlet>
     </div>
   );
 };

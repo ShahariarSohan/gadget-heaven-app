@@ -10,6 +10,8 @@ import Laptops from "../components/categoryComponents/Laptops";
 import Watches from "../components/categoryComponents/Watches";
 import Error from "../pages/Error";
 import ProductDetails from "../pages/ProductDetails";
+import Carts from "../components/basic/Carts";
+import Wishlist from "../components/basic/Wishlist";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -51,6 +53,16 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
+        children: [
+          {
+            path: "carts",
+            element: <Carts></Carts>,
+          },
+          {
+            path: "wishlist",
+            element: <Wishlist></Wishlist>,
+          },
+        ],
       },
       {
         path: "/statistics",
