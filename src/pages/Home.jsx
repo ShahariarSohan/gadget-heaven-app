@@ -10,7 +10,7 @@ const Home = () => {
       <h2 className="text-center font-bold text-2xl">
         Explore Cutting Edge Gadgets
       </h2>
-      <div className="flex flex-col md:flex-row gap-5">
+      <div className="flex flex-col lg:flex-row gap-5 items-start my-10">
         <Category></Category>
         <Outlet></Outlet>
       </div>
