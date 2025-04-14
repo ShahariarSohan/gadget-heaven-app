@@ -1,6 +1,6 @@
 ## Gadget Heaven App
 
-## Website Link
+### Website Link
 
 ### Important Document Link
 
@@ -20,7 +20,7 @@
 
 - Used Context API and Local Storage Both
 
-###
+### 5 Features of the Website
 
 - Active route system
 - Add to cart system
