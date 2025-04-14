@@ -1,13 +1,27 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { deleteCart, getCart } from "../../utils/LocalStorage";
 import Cart from "../common/Cart";
 
 const Carts = () => {
   const [showCarts, setShowCarts] = useState(getCart());
-
+  const [price, setPrice] = useState(0);
+  useEffect(() => {
+    const addedProducts = getCart();
+    const totalPrice = addedProducts.reduce(
+      (previous, current) => previous + current.price,
+      0
+    );
+    setPrice(totalPrice);
+  }, []);
   const handleDeleteCart = (id) => {
     deleteCart(id);
     setShowCarts(getCart());
+    const addedProducts = getCart();
+    const totalPrice = addedProducts.reduce(
+      (previous, current) => previous + current.price,
+      0
+    );
+    setPrice(totalPrice);
   };
   const handleSortByPrice = () => {
     const carts = getCart();
@@ -17,12 +31,13 @@ const Carts = () => {
   const handlePurchase = () => {
     setShowCarts(getCart());
   };
+
   return (
     <div className="container mx-auto p-10">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <h3 className="text-xl font-bold">Cart</h3>
         <div className="flex flex-col md:flex-row gap-5 items-center">
-          <p>Total Price :</p>
+          <p>Total Price : $ {price}</p>
           <button
             onClick={handleSortByPrice}
             className="btn btn-secondary hover:bg-white 

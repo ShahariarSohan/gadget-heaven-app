@@ -77,14 +77,18 @@ const Nav = () => {
       </div>
       <div className="navbar-end gap-3">
         <div className="w-10 h-10 rounded-full shadow-lg flex justify-center items-center">
-          <Link>
-            <BsCart4 />
+          <Link to="/dashboard">
+            <button>
+              <BsCart4 />
+            </button>
           </Link>
         </div>
 
         <div className="w-10 h-10 rounded-full shadow-lg flex justify-center items-center">
-          <Link>
-            <FaRegHeart />
+          <Link to="/dashboard/wishlist">
+            <button>
+              <FaRegHeart />
+            </button>
           </Link>
         </div>
       </div>
