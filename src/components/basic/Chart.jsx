@@ -1,25 +1,49 @@
 import React from "react";
-import { ComposedChart, ResponsiveContainer } from "recharts";
+import {
+  Area,
+  Bar,
+  CartesianGrid,
+  ComposedChart,
+  Legend,
+  ResponsiveContainer,
+  Scatter,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 
 const Chart = ({ products }) => {
-  const data = [];
   return (
     <div className="container mx-auto my-10">
       <h2 className="text-2xl font-bold">Statistics</h2>
-      <div>
-        <ResponsiveContainer width="100%" height="100%">
-          <ComposedChart
-            width={500}
-            height={400}
-            data={data}
-            margin={{
-              top: 20,
-              right: 20,
-              bottom: 20,
-              left: 20,
-            }}
-          ></ComposedChart>
-        </ResponsiveContainer>
+      <div className="w-3/4 mx-auto">
+        {/* <ResponsiveContainer width="100%" height="100%"> */}
+        <ComposedChart
+          width={1000}
+          height={400}
+          data={products}
+          margin={{
+            top: 20,
+            right: 20,
+            bottom: 20,
+            left: 20,
+          }}
+        >
+          <CartesianGrid stroke="#f5f5f5" />
+          <XAxis dataKey="brand" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Area
+            type="monotone"
+            dataKey="price"
+            fill="#8884d8"
+            stroke="#8884d8"
+          />
+          <Bar dataKey="price" barSize={20} fill="#413ea0" />
+          <Scatter dataKey="rating" fill="red" />
+        </ComposedChart>
+        {/* </ResponsiveContainer> */}
       </div>
     </div>
   );
