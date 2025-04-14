@@ -37,7 +37,7 @@ const Carts = () => {
       <div className="flex flex-col md:flex-row justify-between items-center">
         <h3 className="text-xl font-bold">Cart</h3>
         <div className="flex flex-col md:flex-row gap-5 items-center">
-          <p>Total Price : $ {price}</p>
+          <p>Total Cost : $ {price}</p>
           <button
             onClick={handleSortByPrice}
             className="btn btn-secondary hover:bg-white 

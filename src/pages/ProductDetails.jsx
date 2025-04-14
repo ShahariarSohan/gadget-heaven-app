@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { ProductsContext } from "../layouts/MainLayout";
 import { useParams } from "react-router-dom";
 import DetailsCard from "../components/common/DetailsCard";
+import { Helmet } from "react-helmet";
 
 const ProductDetails = () => {
   const params = useParams();
@@ -10,6 +11,9 @@ const ProductDetails = () => {
   const product = products.find((product) => product.product_id === id);
   return (
     <div>
+      <Helmet>
+        <title>Gadget Heaven || productDetails</title>
+      </Helmet>
       <div className="hero bg-[#9538E2] text-white min-h-80">
         <div className="hero-content text-center">
           <div className="max-w-xl">

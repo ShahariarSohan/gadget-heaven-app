@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
+import Chart from "../components/basic/Chart";
+import { ProductsContext } from "../layouts/MainLayout";
+import { Helmet } from "react-helmet";
 
 const Statistics = () => {
+  const products = useContext(ProductsContext);
+  const slicedProducts = products.slice(0, 10);
   return (
     <div>
+      <Helmet>
+        <title>Gadget Heaven || Statistics</title>
+      </Helmet>
       <div className="hero bg-[#9538E2] text-white min-h-80">
         <div className="hero-content text-center">
           <div className="max-w-xl">
@@ -15,6 +23,7 @@ const Statistics = () => {
           </div>
         </div>
       </div>
+      <Chart products={slicedProducts}></Chart>
     </div>
   );
 };

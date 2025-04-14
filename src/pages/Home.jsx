@@ -2,10 +2,14 @@ import React from "react";
 import Banner from "../components/basic/Banner";
 import Category from "../components/basic/Category";
 import { Outlet } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
     <div className="container mx-auto">
+      <Helmet>
+        <title>Gadget Heaven || Home</title>
+      </Helmet>
       <Banner></Banner>
       <h2 className="text-center font-bold text-2xl">
         Explore Cutting Edge Gadgets

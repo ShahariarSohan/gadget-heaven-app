@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 import { getCart, getWishlist } from "../utils/LocalStorage";
 import { Link, Outlet } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Dashboard = () => {
   return (
     <div>
+      <Helmet>
+        <title>Gadget Heaven || Dashboard</title>
+      </Helmet>
       <div className="hero bg-[#9538E2] text-white min-h-80">
         <div className="hero-content text-center">
           <div className="max-w-xl">
